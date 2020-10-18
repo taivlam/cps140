@@ -1,0 +1,92 @@
+* { box-sizing: border-box; }
+body { background-color: #FCEBB6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url(background.gif);
+}
+header { background-color: #D2B48C; 
+    height: 150px;
+    background-image: url(javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
+h1 { padding-top: 45px;
+    padding-left:220px;
+    font-size: 3em;
+}
+nav { float: left;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+nav a { text-decoration: none; } /*Removes anchor/URL underline in <nav>*/
+nav a:link { color: #FEF6C2; } /*The 3 requested pseudo-classes for <a>*/
+nav a:visited { color: #D2B48C; }
+nav a:hover { color: #CC9933; }
+nav ul { list-style-type: none; /*Removes list markers for <ul>*/
+    padding-left: 0;
+}
+footer { background-color: #D2B48C ;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+}
+h4 { background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #221811; /*Same as border-top in <footer>*/
+    padding-bottom: 0;
+    clear: left;
+}
+main { padding-left: 0; /*Explicitly list out padding left, right, top, & bottom b/c easier to change each in later weeks*/
+    padding-right: 0; /*So don't use the terse one-liner - unless confident this won't change very frequently*/
+    padding-bottom: 2em; /*left over from Week 4*/
+    padding-top: 0;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+}
+/*This is a way to make this terse (instead of copy&pasting this 7 times.*/
+main h2, main h3, main h4, main p, main div, main ul, main dl { 
+    padding-left: 3em;
+    padding-right: 2em;
+}
+.details { padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+img { padding-left: 10px;
+    padding-right: 10px;
+}
+#wrapper { width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 5px 5px #221814;
+}
+#heroroad { background-image: url(heroroad.jpg);
+    background-size: 100%;
+    height: 250px ; /* (*) I swear homepage looks better & more like Fig 6.50 if height is 175px, but I follow the book verbatim*/
+    background-repeat: no-repeat; /*make sure background doesn't repeat*/
+}
+#heromugs { background-image: url(heromugs.jpg);
+    background-size: 100%;
+    height: 250px ; /* (*) See 5 lines above.*/
+    background-repeat: no-repeat;
+}
+#heroguitar { background-image: url(heroguitar.jpg);
+    background-size: 100%;
+    height: 250px; /* (*) See 10 lines above.*/
+    background-repeat: no-repeat;
+}
+.floatleft{ float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+/*the following CSS rule adds old browser support*/
+header, nav, main, footer { display:block; }
