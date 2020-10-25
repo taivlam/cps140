@@ -1,0 +1,173 @@
+/*this CSS rule below adds old browser support for HTML5*/
+header, nav, main, footer { display:block; }
+* { box-sizing: border-box; }
+body { background-color: #FCEBB6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url(background.gif);
+}
+header { background-color: #D2B48C; 
+    height: 150px;
+    background-image: url(javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
+h1 { padding-top: 45px;
+    padding-left:220px;
+    font-size: 3em;
+}
+h4 { background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #221811; /*Same as border-top in <footer>*/
+    padding-bottom: 0;
+    clear: left;
+}
+nav { float: left;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+nav a { text-decoration: none; }
+nav a:link { color: #FEF6C2; }
+nav a:visited { color: #D2B48C; }
+nav a:hover { color: #CC9933; }
+nav ul { list-style-type: none; /*Removes list markers for <ul>*/
+    padding-left: 0;
+}
+main { padding-left: 0; /*Explicitly list out padding left, right, top, & bottom b/c easier to change each in later weeks*/
+    padding-right: 0; /*So don't use the terse one-liner - unless confident this won't change very frequently*/
+    padding-bottom: 2em;
+    padding-top: 0;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+}
+footer { background-color: #D2B48C ;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+}
+/*This is a terse way to state 7 otherwise identical CSS rules.*/
+main h2, main h3, main h4, main p, main div, main ul, main dl { 
+    padding-left: 3em;
+    padding-right: 2em;
+}
+img { padding-left: 10px;
+    padding-right: 10px;
+}
+/*these are classes*/
+.details { padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+.floatleft{ float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+/*these are id selectors*/
+#heroroad { background-image: url(heroroad.jpg);
+    background-size: 100%;
+    height: 250px ; /* Never mind, it looks a bit better when tablet support is enabled */
+    background-repeat: no-repeat; /*make sure background doesn't repeat*/
+}
+#heromugs { background-image: url(heromugs.jpg);
+    background-size: 100%;
+    height: 250px ;
+    background-repeat: no-repeat;
+}
+#heroguitar { background-image: url(heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+#wrapper { width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 5px 5px #221814;
+}
+/*these 2 rules "show" a ```desktop``` id for tablet/desktop, hides the ```mobile``` id*/
+#mobile { display: none; }
+#desktop { display: inline; }
+/*this media section is for tablet displays*/
+@media only screen and (max-width: 1024px) {
+    body { margin: 0;
+        background-image: none;
+    }
+    header { border-bottom: 5px solid #FEF6C2; }
+    h1 { margin-top: 0;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 2.5em;
+    }
+    nav { float: none;
+        width: auto;
+        padding-top: 0;
+        margin: 10px;
+        font-size: 1.3em;
+    }
+    nav li { display: inline-block; }
+    nav a { padding: 1em;
+        width: 8em;
+        font-weight: bold;
+        border-style: none;
+    }
+    nav ul { padding: 0;
+        margin: 0;
+    }
+    main { margin: 0;
+        font-size: 90%;
+    }
+    /*these are id selectors*/
+    #heroroad, #heromugs, #heroguitar { margin: 0;
+        padding: 0;
+    }
+    #wrapper { width: auto;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+}
+/*this media section is for smartphone displays*/
+@media only screen and (max-width: 768px) {
+    header { background-image: url(javajammini.jpg);
+        height: 128px;
+    }
+    h1 { font-size: 2em;
+        text-align: center;
+        padding-left: 0;
+    }
+    h2 { padding: 0.5em 0 0 0.5em; /*top, right, bottom, left*/
+        margin-right: 0.5em;
+    }
+    nav { margin: 0; }
+    nav a { display: block;
+        padding: 0.2em;
+        width: auto;
+        border-bottom: 1px solid #FEF6C2; /*Chose solid, b/c book didn't specify border style*/
+    }
+    nav li { display: block; }
+    main { padding-top: 1px; }
+    /*classes start here*/
+    .details { padding-left: 0;
+        padding-right: 0;
+    }
+    .floatleft { padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    /*id selectors here*/
+    #heroroad, #heromugs, #heroguitar { background-image: none;
+        height: auto;
+    }
+    /*conversely, these 2 rules "show" for ```mobile``` id in mobile mode, otherwise hide for tablet/desktop*/
+    #mobile { display: inline; }
+    #desktop { display: none; }
+}
