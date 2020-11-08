@@ -41,7 +41,7 @@ main { padding: 0 0 2em 0; /*The order: top, right, bottom, left (just like a cl
     margin-left: 200px;
     background-color: #FEF6C2;
 }
-footer { background-color: #D2B48C ;
+footer { background-color: #D2B48C;
     font-size: .60em;
     font-style: italic;
     text-align: center;
@@ -88,12 +88,12 @@ input, textarea { display: block;
 /*Id Selectors*/
 #heroroad { background-image: url(heroroad.jpg);
     background-size: 100%;
-    height: 250px ; /* Never mind, it looks a bit better when tablet support is enabled */
+    height: 250px; /* Never mind, it looks a bit better when tablet support is enabled */
     background-repeat: no-repeat; /*make sure background doesn't repeat*/
 }
 #heromugs { background-image: url(heromugs.jpg);
     background-size: 100%;
-    height: 250px ;
+    height: 250px;
     background-repeat: no-repeat;
 }
 #heroguitar { background-image: url(heroguitar.jpg);
