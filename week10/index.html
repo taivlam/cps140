@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Week 10: Comparison of 3 Web Host Providers</title>
+        <meta charset="utf-8">
+        <style>/*Use embedded CSS to make things easier; from Ex 8.4*/
+            table { margin: auto;
+                border: 5px solid #000066;
+                min-width: 600px; /*Min width required...*/
+                max-width: 1200px; /*... but also max width required.*/
+                border-spacing: 0;
+            }
+            td, th { border: none;
+                padding: 0.5em;
+                font-family: Arial, sans-serif;
+            }
+            caption { font-family: Verdana, sans-serif;
+                font-weight: bold;
+                font-size: 1.2em;
+                padding-bottom: 0.5em;
+            }
+            tr:nth-of-type(even) { background-color: #EAEAEA; }
+            tr:first-of-type { background-color: #006;
+                color: #EAEAEA;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Week 10: Comparison of 3 Web Host Providers</h1>
+        </header>
+        <main>
+            <p>Instead of a JavaJam assignment this week, we completed #1 from Web Research, which was about researching 3 web host providers satisfying the following criteria:</p>
+            <ul>
+                <li>Support PHP and MySQL</li>
+                <li>Offer e-commerce capabilities</li>
+                <li>Provide at least 1GB of disk space</li>
+            </ul>
+            <h2>Table of Results</h2>
+            <p>
+                Below is a table that summarizes my findings.<br>
+                (All prices were current as of November 14, 2020 and all listed plans were the least expensive plans that had e-commerce features or were recommended for e-commerce.)
+            </p>
+            <table border="1">  
+                <caption>Comparison of 3 Web Host Providers</caption>
+                <tr>
+                    <th id="prodivername">Provider Name</th>
+                    <th id="setupfees">Setup Fees</th>
+                    <th id="monthlyfees">Monthly Fees</th>
+                    <th id="domainnamecost">Domain Name Registration Costs</th>
+                    <th id="diskspace">Amount of Disk Space</th>
+                    <th id="ecommercepackagetype">Type of E-Commerce Package</th>
+                    <th id="ecommercepackagecost">Cost of E-Commerce Package</th>
+                </tr>
+                <tr>
+                    <th headers="prodivername"><a href="https://www.gandi.net/en/simple-hosting">Gandi</a></th>
+                    <td headers="setupfees">N/A*</td>
+                    <td headers="monthlyfees">$5.00 (regular price: $10.00)</td>
+                    <td headers="domainnamecost">Variable; prices range from $0.99 to $47.87 for at least 1 year</td>
+                    <td headers="diskspace"><a href="https://docs.gandi.net/en/simple_hosting/instance_management/change_size.html">20 GB</a></td>
+                    <td headers="ecommercepackagetype">
+                        The M/Basic Plan provides a recommended maximum of 5 sites, 2 CPUs with up to 512 MB of RAM, and has unlimited bandwidth (offered for all plans); intended for small e-commerce sites with little traffic (600,000 estimated monthly pageviews and 120 GB estimated monthly traffic).
+                    </td>
+                    <td headers="ecommercepackagecost">Already included**</td>
+                <tr>
+                    <th headers="prodivername"><a href="https://www.siteground.com/web-hosting.htm">SiteGround</a></th>
+                    <td headers="setupfees">N/A*</td>
+                    <td headers="monthlyfees">$6.99 (regular price $14.99)</td>
+                    <td headers="domainnamecost">$15.95/year</td>
+                    <td headers="diskspace">10 GB</td>
+                    <td headers="ecommercepackagetype">
+                        The StartUp plan provides 1 website, approximately 10,000 monthly visits, and unmetered traffic; includes free shopping cart install and Let’s Encrypt SSL certificates.
+                    </td>
+                    <td headers="ecommercepackagecost">Already included**</td>
+                <tr>
+                    <th headers="prodivername"><a href="https://www.hostmonster.com/hosting-features">HostMonster</a></th>
+                    <td headers="setupfees">N/A*</td>
+                    <td headers="monthlyfees">$4.95 (after first term, regular price <a href="https://my.hostmonster.com/hosting/help/141">$11.99)</a></td>
+                    <td headers="domainnamecost">None (due to its Unlimited Domain Hosting; in compliance with its Terms of Service)</td>
+                    <td headers="diskspace">Unlimited (due to its Unlimited Disk Storage; in compliance with its Terms and Service)</td>
+                    <td headers="ecommercepackagetype">
+                        The Basic plan provides 50 GB of website space, unmetered bandwidth, a free SSL certificate, 1 domain, 5 parked domains, 25 subdomains, and 5 e-mail accounts with 100MB of storage per e-mail account.  The web host provides many types of commerce shopping carts, free generated certificate, password protected directories, and OpenPGP/GPG encryption.
+                    </td>
+                    <td headers="ecommercepackagecost">Already included**</td>
+                </tr>
+            </table>
+            <h2>Notes About the Results</h2>
+            <ul>
+                <li>*No setup fees were able to be found without resorting to checking out an actual order with a credit card.</li>
+                <li>**E-commerce packages/services and options seemed to be already included by default for all 3 providers.</li>
+            </ul>
+        </main>
+        <footer><!--from Week 2-->
+            <small>
+                <i>Copyright &copy; 2020 Tai Lam<br>
+                <a href="tai@lam.com">tai@lam.com</a></i>
+            </small>
+        </footer>
+    </body>
+</html>
