@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Week 12: Comparison of 3 Shopping Cart Systems</title>
+        <meta charset="utf-8">
+        <style>/*Use embedded CSS to make things easier; from Ex 8.4*/
+            /*body rule from Ex 11.8, for a overall dark background*/
+            body { background-color: #222222; /*slightly darker gray (felt limited w/ mutliples of 00, 33, 66, 99, CC, & FF)*/
+                color: #eaeaea; /*slightly off-white*/
+            }
+            /*from Week 11,13*/
+            footer { font-size: .75em;
+                font-style: italic;
+                text-align: center;
+                padding: 1em;
+            }
+            /*make cyan - 64 "blue" for anchors/hyperlinks*/
+            a { color: rgb(0, 196, 255); } /*An experienced dark theme web designer might yell at me for this later in the future*/
+            table { margin: auto;
+                border: 5px solid #000000; /*full on black*/
+                min-width: 600px; /*Min width required...*/
+                max-width: 1200px; /*... but also max width required.*/
+                border-spacing: 0;
+            }
+            td, th { border: none;
+                padding: 0.5em;
+                font-family: Arial, sans-serif;
+            }
+            caption { font-family: Verdana, sans-serif;
+                font-weight: bold;
+                font-size: 1.2em;
+                padding-bottom: 0.5em;
+            }
+            /*Just the 1st row*/
+            tr:nth-of-type(even) { background-color: #333333; } /*For even rows, slightly darker gray than body background*/
+            tr:nth-of-type(odd) { background-color: #111111; } /*For odd rows, slightly lighter gray than body background*/
+            tr:first-of-type { background-color: #000000; } /*For 1st odd row, full on black background*/
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Week 12: Comparison of 3 Shopping Cart Systems</h1>
+        </header>
+        <main>
+            <p>Instead of a JavaJam assignment this week, we completed #2 from Web Research, which was about researching 3 online shopping cart systems that I feel would be easy to use and display my findings regarding the following attributes:</p>
+            <ul>
+                <li>Product name</li>
+                <li>Brief description</li>
+                <li>Cost</li>
+                <li>Web server requirements (if any)</li>
+            </ul>
+            <h2>Table of Results</h2>
+            <p>
+                Below is a table that summarizes my findings.<br>
+                (All information and costs were current as of December 6, 2020.)
+                <br><br>
+            </p>
+            <table border="1">  
+                <caption>Comparison of 3 Shopping Cart Systems</caption>
+                <tr>
+                    <th id="productname">Product Name</th>
+                    <th id="homepageurlandsourcecode">Home Page URL and Source Code</th>
+                    <th id="briefdescription">Brief Description</th>
+                    <th id="cost">Costs</th>
+                    <th id="webserverrequirements">Web Server Requirements (if any)</th>
+                    <th id="streetspeakassessment">Street Speak Assessment</th>
+                </tr>
+                <tr>
+                    <th headers="productname">CE Phoenix</th>
+                    <td headers="homepageurlandsourcecode">
+                        <a href="https://phoenixcart.org/">https://phoenixcart.org/</a><br><br>
+                        CE Phoenix's source code is on <a href="https://github.com/gburton/CE-Phoenix">GitHub</a>.
+                    </td>
+                    <td headers="briefdescription">
+                        CE Phoenix is the community edition of osCommerce, another older and earlier open-source webshop software program.  CE Phoenix is kept up to date (the latest version was released on <a href="https://github.com/gburton/CE-Phoenix/releases/tag/v1.0.7.11">November 30, 2020</a>), while the lastest version of osCommerce was released <a href="https://github.com/osCommerce/oscommerce2/releases/tag/v2.4.2">over 4 years ago</a>.
+                    </td>
+                    <td headers="cost">
+                        None, though its site offically lists <a href="https://phoenixcart.org/partners.php">Professional Partners</a> that will help and assist with web hosting and development for CE Phoenix; it requires setting up an account with a separate payment provider (such as PayPal or SagePay, which have their own fees) for orders; and <a href="https://phoenixcart.org/phoenix_gopro.php">a CE Phoenix PRO membership</a> will grant users direct support from the <a href="https://phoenixcart.org/features.php">lead developer Gary Burton</a>.
+                    </td>
+                    <td headers="webserverrequirements">
+                        Minimum of <a href="https://phoenixcart.org/download_ce_phoenix.php">"PHP 7.1 and a database"</a>, <a href="https://phoenixcart.org/features.php">MySQL, JQuery 3.4.1, plus other specifications</a> (under the "Technical Specifications" section on the bottom of the page), and <a href="https://phoenixcart.org/phoenixcartwiki/index.php?title=Must_Have_Tools">other software tools</a> for a manual install; or enough to run and use <a href="https://phoenixcart.org/phoenixcartwiki/index.php?title=DOWNLOAD_%26_INSTALL">Softaculous</a> to install CE Phoenix.
+                    </td>
+                    <td id="streetspeakassessment">
+                        CE Phoenix seems to be good for anyone who has the time, budget, and some expertise to customize their webstore and an excellent choice for those who want to support free and open-source software with a CE Phoenix PRO membership and/or signing up for services through its Professional Partners and can find another payment provider.
+                    </td>
+                </tr>
+                <tr>
+                    <th headers="productname">WooCommerce</th>
+                    <td headers="homepageurlandsourcecode">
+                        <a href="https://woocommerce.com/">https://woocommerce.com/</a><br><br>
+                        WooCommerce's source code is on <a href="https://github.com/woocommerce/woocommerce">GitHub</a>.
+                    </td>
+                    <td headers="briefdescription">
+                        WooCommerce is an open-source and free (as in price) e-commerce plugin for WordPress, allowing users with WordPress sites to simply, quickly, and easily add a webshop with plenty of customizations to a WordPress site.
+                    </td>
+                    <td headers="cost">
+                        None, for installing WooCommerce; though many users will use the WooCommerce Payments service (powered by <a href="https://woocommerce.com/payments/#2151006">Stripe</a>), which has the following <a href="https://docs.woocommerce.com/document/payments/faq/fees/">"pay-as-you-go"</a> costs: no set up fee; no monthly fees; a 2.9% transaction fee and a 30¢ charge per transaction for U.S.-issued credit or debit card; an additional 1% for transactions paid using a card issued outside the US; and $15 fee per dispute (which is refunded if the site owner win the dispute).
+                    </td>
+                    <td headers="webserverrequirements">
+                        <a href="https://docs.woocommerce.com/document/server-requirements/">Recommended</a> for a WordPress installation on a server with the WooCommerce plug-in: at least PHP 7.2, MySQL 5.6 or MariaDB 10.0, WordPress memory limit of 128 MB, and HTTPS support.
+                    </td>
+                    <td id="streetspeakassessment">
+                        WooCommerce is perfect for an easy, no fuss all-in-one solution for anyone who either wants a WordPress site or is already hosting a web site on WordPress site and now desires to add a new web store quickly for a small to large business (that comply with Stripes Terms of Service and Agreement), with no need to look for another payment provider.
+                    </td>
+                </tr>
+                <tr>
+                    <th headers="productname">Zen Cart</th>
+                    <td headers="homepageurlandsourcecode">
+                        <a href="https://www.zen-cart.com/">https://www.zen-cart.com/</a><br><br>
+                        Zen Cart's source code is on <a href="https://github.com/zencart/zencart">GitHub</a>.
+                    </td>
+                    <td headers="briefdescription">
+                        Zen Cart is an open-source and free (as in price) webshop software that is customizable and has many payment gateways either built-in or can be added with community-contributed payment gateway modules.
+                    </td>
+                    <td headers="cost">
+                        None, though users will have to seek out a <a href="https://www.zen-cart.com/content.php?14-Payment-Processing">payment processing provider</a>, such as Square or PayPal, which will also cost money.  Everyone can get <a href="https://www.zen-cart.com/content.php?337-support&s=7282fdd70213fd1119879ec9dd672f5b">free online support for Zen Cart through its forums</a>.  Additionally, Zen Cart has <a href="https://www.zen-cart.com/content.php?3-services&s=7282fdd70213fd1119879ec9dd672f5b">Recommended Services</a> of web hosts that will maintain one's Zen Cart server installation(s) as a paid service.
+                    </td>
+                    <td headers="webserverrequirements">
+                        The <a href="https://docs.woocommerce.com/document/server-requirements/">minimum server requirements</a> are for a <a href="https://docs.zen-cart.com/user/first_steps/technologies/">standard "Lamp" stack</a> (Linux, Apache, MySQL, and PHP) are: PHP 5.6 with additional PHP extensions, modules, and settings; a memory limit of at least 128M; MySQL 5.1; OpenSSL with an SSL certificate for HTTPS; cURL; and Apache 2.2 or Nginx (no Windows Server or IIS support).
+                    </td>
+                    <td id="streetspeakassessment">
+                        Zen Cart seems to be good for those who would like customizability in their webshop storefront and is tikerable.  This would be a good fit for those who have the time, skill, and budget - along with supporting free and open-source software, especially if one can find his/her another payment provider.
+                    </td>
+                </tr>
+            </table>
+        </main>
+        <footer><!--from Week 11,13-->
+            Copyright &copy; 2020 Tai Lam<br>
+            <a href="tai@lam.com">tai@lam.com</a>
+        </footer>
+    </body>
+</html>
