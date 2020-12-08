@@ -2,6 +2,11 @@
 
 This is my GitHub repository for my work in CPS 140, fall 2020.
 
+* You may find the GitHub Pages site, which is where this repo "lives, here at:
+[https://taivlam.github.io/cps140/](https://taivlam.github.io/cps140/)
+
+[//]: # (Oh gosh, I'm commiting a web development faux pas...)
+
 ## The "Origin Story"
 
 I started to invest effort and time in simply setting up this repo for submitting source code and to show that my JavaJam Coffe House site works, after completing my weekly assignments, because Blackboard (erroneously) complained that my CSS file had a security risk for Week 4 and refused to let me upload my assignment.
