@@ -39,7 +39,7 @@ I'm definitely in a legal gray area for keeping a repo of my JavaJam Coffee Hous
 
 I mean, there are at least 2 other (rather old-ish) repos for this same textbook, albeit for the 6th editions of the textbook, on GitHub - though there's little to no descriptions/documentaitons with them, and those users haven't really used GitHub since taking their classes (not like any of that matters).  However, those repos aren't too popular and it takes some digging around on DuckDuckGo or Startpage to find them.
 
-All I hope is that the reason of "this repo was created for purely educational purposes and was definitely not intended for commercial purposes" is good enough of a rational to prevent Pearson from attempting an unfair and unjust copyright takedown of this repo - the recent (unrelated for non-analogous reasons) attempted takedown of `youtube-dl` comes to mind...
+All I hope is that the reason of "this repo was created for purely educational purposes and was definitely not intended for commercial purposes" is good enough of a rationale to prevent Pearson from attempting an unfair and unjust copyright takedown of this repo - the recent (unrelated for non-analogous reasons) attempted takedown of `youtube-dl` comes to mind...
 
 ### Oh Yeah - a Disclaimer on "Cheating"
 
