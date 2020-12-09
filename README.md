@@ -31,7 +31,7 @@ Adding something like the ALE plugin (for IDE functionality in Vim - which I did
 
 I started to invest effort and time in simply setting up this repo for submitting source code and to show that my JavaJam Coffe House site works, after completing my weekly assignments, because Blackboard (erroneously) complained that my CSS file had a security risk for Week 4 and refused to let me upload my assignment.
 
-Setting up a GitHub Pages site was just a convenient side effect and an inevitable item to cross off of my bucket list.
+Setting up a GitHub Pages site was just a convenient side effect and an inevitable item to cross off from my bucket list.
 
 ## Hoping to Not Get Slammed by Pearson, Like `youtube-dl`
 
@@ -48,6 +48,15 @@ On one hand, I suppose the people actually stuck with the "kindergartner" mindse
 It's a bit like tracing when one first learns to draw by teaching him/herself - of course you shouldn't go around and tell everyone that your trace is your own original artwork.  Yet, as an absolute beginner, one can still learn quite a lit by tracing in art.  As long as the ultimate goal is self-sufficiency (i.e., not longer tracing/copying code anymore in the near future), there is nothing wrong with the utilitarian MO of tracing in art or copying code in programming - especially when one is starting in their own respective crafts.
 
 And, since I'm not the devil's advocate academic obsessed with "hypothetical" situations and putting of cardboard-front opinions that s/he doesn't actually believe in, I wouldn't be saying all of this if I also didn't experience this, either.
+
+## To Do (Hopefully Sooner Rather Than Later)
+
+I want to have the following here (besides the weekly assignments):
+
+* List out the Hands-On Exercises from each chapter (because let's face it - there are some serious typos and incorrect figures accompanying what the resulting exercises that are shown for these practice exercises and in the suggested solutions of the "Student File" ZIP archive, if your professor provides it to you; the book claims that having a valid license to the e-book will grant you access to the "Student Files" folder and the Video Examples, but of course it's impossible for me when I try to do this myself... thanks Pearson, I hate this).
+* Implement a simple CSS dark theme across all pages that aren't the JavaJam Coffe House pages.
+* Some notes that would help myself, especially for the chapters and weeks that didn't have a JavaJam Coffee House Assignment (specifically Chapters 5 and 10 had no JavaJam assignment and our class opted to not do the Chapter 12 JavaJam assignment).
+* Adding the Chapter 12 JavaJam assignment, if I' m really motivated.  However, I would not be "forking"/"carrying" the Gear page (i.e., the webshop page) into my work for Chapters 13 and 14 because the completion of the Chapter 12 JavaJam assignment isn't "canon" with respect to my actual JavaJam work and Chapter 12 would only be completed for myself.  If you're read all the way down here and you need to cary over the Gear page into Chapter 13-14 work for class, then you're definitely sufficiently smart and capable enough to do that yourself.  (From the top of my head, only Chapter 13 adds the description meta tag to all pages so search engines can properly index each page - so, that's literally 1 additional line of HTML in the `head` section for the Gear page - and Chapter 14 won't affect the Gear page - since the JavaScript is only added to the Menu page.)
 
 ## Licenses and Other Whatnot
 
