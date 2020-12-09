@@ -60,4 +60,6 @@ I want to have the following here (besides the weekly assignments):
 
 ## Licenses and Other Whatnot
 
-I suppose I should give some legitimate and/or recognized FOSS license to this repository at some point, but that's probably only going to happen once I have more time after this class is over... (I'm still getting the hang of how things work on GitHub - I mean, I didn't even have a ```README.md``` until the last week of this class!)
+I suppose I should give some legitimate and/or recognized FOSS, Creative Commons, or copyleft license to this repository at some point, but that's probably only going to happen once I have more time after this class is over... probably a Creative Commons license, since I am using the picture/audio assets from a Pearson author for an educational and non-commerical purpose.
+
+(I'm still getting the hang of how things work on GitHub - I mean, I didn't even have a ```README.md``` until the last week of this class!)
