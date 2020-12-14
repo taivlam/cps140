@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>jQuery Toggle Practice</title>
+        <meta charset="utf-8">
+        <style>
+            #details { display: none; }
+        </style>
+        <!--Adding jQuery via Google APIs-->
+        <script
+          src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('#more').click(function(){
+                    $('#details').fadeToggle(10000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>jQuery</h1>
+        <p>
+            Many websites, including Amazon and Google, use jQuery to provide interaction and dynamic effects on web pages. <a href="#" id="more">More</a>
+        </p>
+        <div id="details">
+            <p>
+                The jQuery API (application programming interface) works along with JavaScript and provides easy ways to dynamically manipulate the CSS properties of elements, detect and react to events (such as mouse movements), and animate elements on a web page, such as image slideshows.
+            </p>
+        </div>
+        </p>
+    </body>
+</html>

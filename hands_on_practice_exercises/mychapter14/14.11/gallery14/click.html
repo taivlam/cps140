@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Gallery</title>
+        <meta charset="utf-8">
+        <style>
+            body { background-color: #333333;
+                color: #eaeaea;
+            }
+            #gallery { width: 800px; }
+            #gallery ul { width: 300px;
+                list-style-type: none; /*no list marker (a.k.a. bullets in unordered lists)*/
+                float: left;
+            }
+            #gallery li { display: inline;
+                float: left;
+                padding: 16px;
+            }
+            #gallery img { border-style: none; }
+            figure { padding-top: 30px;
+                text-align: center;
+            }
+            figcaption { font-weight: bold;
+                font-size: 1.5em;
+            }
+        </style>
+        <!--Adding jQuery via Google APIs-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $('#gallery a').click(function(){
+                    var galleryHref = $(this).attr('href');
+                    var galleryAlt = $(this).attr('title');
+                    $('figure img').attr({ src: galleryHref, alt: galleryAlt });
+                    $('figcaption').html(galleryAlt);
+                    return false;  // Prevent browser from opening image in new window/tab
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Image Gallery</h1>
+        <div id="gallery">
+            <ul>
+                <li>
+                    <a href="photo1.jpg" title="Golden Gate Bridge">
+                        <img src="photo1thumb.jpg" width="100" height="75" alt="Golden Gate Bridge">
+                    </a>
+                </li>
+                <li>
+                    <a href="photo2.jpg" title="Rocky Beach">
+                        <img src="photo2thumb.jpg" width="100" height="75" alt="Rocky Beach">
+                    </a>
+                </li>
+                <li>
+                    <a href="photo3.jpg" title="Fog Moving Onto Beach">
+                        <img src="photo3thumb.jpg" width="100" height="75" alt="Fog Moving Onto Beach">
+                    </a>
+                </li>
+                <li>
+                    <a href="photo4.jpg" title="Summer Rocky Shore">
+                        <img src="photo4thumb.jpg" width="100" height="75" alt="Summer Rocky Shore">
+                    </a>
+                </li>
+                <li>
+                    <a href="photo5.jpg" title="Winter Rocky Shore">
+                        <img src="photo5thumb.jpg" width="100" height="75" alt="Winter Rocky Shore">
+                    </a>
+                </li>
+                <li>
+                    <a href="photo6.jpg" title="Sunset at Beach">
+                        <img src="photo6thumb.jpg" width="100" height="75" alt="Sunset at Beach">
+                    </a>
+                </li>
+            </ul>
+            <figure>
+                <img src="photo1.jpg" width="400" height="300" alt="Golden Gate Bridge">
+                <figcaption>
+                    Golden Gate Bridge
+                </figcaption>
+            </figure>
+        </div>
+    </body>
+</html>

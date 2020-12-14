@@ -1,0 +1,1 @@
+I thought I was going to need to locally save the minimum jQuery library, but the book's exercises ended up going with various online CDNs for enabling jQuery.
