@@ -55,18 +55,25 @@ And, since I'm not the devil's advocate academic obsessed with "hypothetical" si
 
 I have the source code for all of the Hands-On Exercises each chapter (because let's face it - there are some serious typos and incorrect figures accompanying what the resulting exercises that are shown for these practice exercises and in the suggested solutions of the "Student File" ZIP archive, if your professor provides them to you; the book claims that having a valid license to the e-book will grant you access to the "Student Files" folder and the Video Examples, but of course it's impossible for me when I try to do this myself... thanks Pearson, I hate this).
 
+However, I have decided to __not__ make working webpages of these practice exercises (because there would be many, many more web pages on the GitHub page than with just the JavaJam assignments -- which this GitHub repo was created for and will primarily aim to host).
+
 Anyways, these are probably clues that this textbook has the rampant disease of "new edition every 2-3 years (for all the wrong reasons) by nominally changing the exercises and figures in rather trivial ways so that the publisher can make more money, but not check for correctness/accuracy".
 
 I don't claim I am 100% accurate with these Hands-On Exercises (and I'm trying to be more accurate than the publisher provided Student Files), but I ultimately don't claim liability if you use them for class and get points taken off or other situations.
 
 Feel free to make a pull request or raise a GitHub question if you think you see a typo - as they say in statistical mechanics, the longer a piece of writing is, the more likelihood of you coming across a typo increases.
 
+## A Note on Chapter 12's JavaJam Assignment
+
+* The Chapter 12 JavaJam assignment (if I ever get to it) will not have the Gear page (i.e., the webshop page) "forked"/"carried over" into my work for Chapters 13 and 14 because the completion of the Chapter 12 JavaJam assignment isn't "canon" with respect to my actual JavaJam work and Chapter 12 would only be completed for my own personal enjoyment (of completion-ism).
+
+If you're read all the way down here and you need to cary over the Gear page into Chapter 13-14 work for class, then you're definitely sufficiently smart and capable enough to do that yourself.  (From the top of my head and on a high-level conceptual overview that's actually _pretty close_ to the low-level detail perspective, only Chapter 13 adds the description meta tag to all pages so search engines can properly index each page - so, that's literally 1 additional line of HTML in the `head` section for the Gear page - and Chapter 14 won't affect the Gear page - since the JavaScript is only added to the Menu page.)
+
 ## To Do (Hopefully Sooner Rather Than Later)
 
 I want to have the following here (besides the weekly assignments):
 * Implement a simple CSS dark theme across all pages that aren't the JavaJam Coffe House pages.
 * Some notes that would help myself, especially for the chapters and weeks that didn't have a JavaJam Coffee House Assignment (specifically Chapters 5 and 10 had no JavaJam assignment and our class opted to not do the Chapter 12 JavaJam assignment).
-* Adding the Chapter 12 JavaJam assignment, if I'm really motivated.  However, I would not be "forking"/"carrying" the Gear page (i.e., the webshop page) into my work for Chapters 13 and 14 because the completion of the Chapter 12 JavaJam assignment isn't "canon" with respect to my actual JavaJam work and Chapter 12 would only be completed for my own personal enjoyment (of completion-ism).  If you're read all the way down here and you need to cary over the Gear page into Chapter 13-14 work for class, then you're definitely sufficiently smart and capable enough to do that yourself.  (From the top of my head, only Chapter 13 adds the description meta tag to all pages so search engines can properly index each page - so, that's literally 1 additional line of HTML in the `head` section for the Gear page - and Chapter 14 won't affect the Gear page - since the JavaScript is only added to the Menu page.)
 
 ## License
 
