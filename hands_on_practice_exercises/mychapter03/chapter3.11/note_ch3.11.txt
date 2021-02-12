@@ -1,0 +1,6 @@
+Another online validation test, but this time with CSS instead of HTML.
+
+(re-using products from Exercise 3.7)
+
+Link:
+https://jigsaw.w3.org/css-validator

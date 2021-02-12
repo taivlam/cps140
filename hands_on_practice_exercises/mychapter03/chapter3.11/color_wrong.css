@@ -1,0 +1,2 @@
+body { background-colo: #0000FF; /* The ```r``` is deleted here, to intentionally get an error. */
+	color: FFFFFF; } /*The ```#``` removed, too.*/
