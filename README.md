@@ -35,14 +35,6 @@ I started to invest effort and time in simply setting up this repo for submittin
 
 Setting up a GitHub Pages site was just a convenient side effect and an inevitable item to cross off from my bucket list.
 
-## Hoping to Not Get Slammed by Pearson, Like `youtube-dl`
-
-I'm definitely in a legal gray area for keeping a repo of my JavaJam Coffee House work on GitHub... though (hopefully) things will be ok for me empirically in the future. 
-
-I mean, there are at least 2 other (rather old-ish) repos for this same textbook, albeit for the 6th editions of the textbook, on GitHub - though there's little to no descriptions/documentaitons with them, and those users haven't really used GitHub since taking their classes (not like any of that matters).  However, those repos aren't too popular and it takes some digging around on DuckDuckGo or Startpage to find them.
-
-All I hope is that the reason of "this repo was created for purely educational purposes and was definitely not intended for commercial purposes" is good enough of a rationale to prevent Pearson from attempting an unfair and unjust copyright takedown of this repo - the recent (unrelated for non-analogous reasons) attempted takedown of `youtube-dl` comes to mind...
-
 ### Oh Yeah - a Disclaimer on "Cheating"
 
 On one hand, I suppose the people actually stuck with the "kindergartner" mindset (which is objectively bad - but I won't get into that, because this repo is for my schoolwork, not my waxing philosophy opinions) can try to argue that I'm "enabling" students to cheat.  However, on the other hand, I'm going to tell those who are still using the 9th edition of the book to write the code themselves, even if they happen to end up rewriting my code.
