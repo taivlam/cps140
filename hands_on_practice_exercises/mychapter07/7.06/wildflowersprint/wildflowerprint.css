@@ -1,0 +1,69 @@
+/*CSS for printing*/
+header, nav, main, footer, aside { display: block; }
+* { box-sizing: border-box; }
+body { margin:0;
+    background-color: #FFFFFF;
+}
+#container { background-color: #EEEEEE;
+    color: #006600;
+    font-family: Verdana, Arial, sans-serif;
+}
+header { background-color: #ffffff;
+    color: #CC66CC;
+    padding: 0 20px;
+    border-bottom: 2px solid #000000;
+}
+h1 { margin-top: 0;
+    font-size: 24pt;
+    text-align: left;
+}
+nav { display: none; }
+nav ul { margin-top: 20px;
+    list-style-type: none;
+}
+nav a { text-decoration: none;
+    font-size: 1.2em;
+}
+nav a:link { color: #006600; }
+nav a:visited { color: #003300; }
+nav a:focus, nav a:hover { color: #cc66cc; }
+nav a:active { color: #000000;}
+nav img { margin: 30px; }
+aside { float: right;
+    width: 40%;
+}
+aside a { text-decoration: none; }
+aside a:after { content: " (" attr(href) ") ";
+    font-size: 8pt;
+    color: #000000;
+}
+aside h3 { padding-bottom: 2px;
+    border-bottom: 1px solid #000000;
+    margin: 10px;
+    font-size: 0.90em;
+    color: #cc66cc;
+}
+main { margin: 0 40% 0 0;
+    padding: 1px 10px 20px 10px;
+    font-size: 12pt;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+main p { margin: 20px; }
+main h2, main h3 { color: #cc66cc;
+    background-color: #ffffff;
+}
+.floatright { margin: 10px;
+    float:right;
+}
+.news { font-size: 10pt;
+    margin: 10px;
+}
+footer { font-size: 0.70em;
+    text-align: center;
+    color: #006600;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    clear: both;
+}
+
