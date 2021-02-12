@@ -77,4 +77,4 @@ I want to have the following here (besides the weekly assignments):
 
 ## License
 
-TBD (either Creative Commons or GPLv3, if possible -- I'll need to consult a license advisor for this)
+All the HTML, Javascript, and CSS files contained herein are licensed under the GPL license, version 3. The image, video, audio, and Flash assets are copyrighted material the use of which has not been specifically authorized by the copyright owner, Pearson Higher Education, Inc. I am using such assets under the "Fair Use" doctrine of copyrighted material for educational purposes, as provided for in section 107 of the US Copyright Law.
