@@ -60,10 +60,6 @@ I want to have the following here (besides the weekly assignments):
 * Some notes that would help myself, especially for the chapters and weeks that didn't have a JavaJam Coffee House Assignment (specifically Chapters 5 and 10 had no JavaJam assignment and our class opted to not do the Chapter 12 JavaJam assignment).
 * Adding the Chapter 12 JavaJam assignment, if I'm really motivated.  However, I would not be "forking"/"carrying" the Gear page (i.e., the webshop page) into my work for Chapters 13 and 14 because the completion of the Chapter 12 JavaJam assignment isn't "canon" with respect to my actual JavaJam work and Chapter 12 would only be completed for my own personal enjoyment (of completion-ism).  If you're read all the way down here and you need to cary over the Gear page into Chapter 13-14 work for class, then you're definitely sufficiently smart and capable enough to do that yourself.  (From the top of my head, only Chapter 13 adds the description meta tag to all pages so search engines can properly index each page - so, that's literally 1 additional line of HTML in the `head` section for the Gear page - and Chapter 14 won't affect the Gear page - since the JavaScript is only added to the Menu page.)
 
-## Licenses and Other Whatnot
+## License
 
-I suppose I should give some legitimate and/or recognized FOSS, Creative Commons, or copyleft license to this repository at some point, but that's probably only going to happen once I have more time after this class is over... probably a Creative Commons license, since I am using the picture/audio assets from a Pearson author for an educational and non-commerical purpose.
-
-Also, I should make sure that I am not liable if you decide to use any part of my code for your class, but don't get a 100% on your assignments and all that other jazz.
-
-(I'm still getting the hang of how things work on GitHub - I mean, I didn't even have a ```README.md``` until the last week of this class!)
+TBD (either Creative Commons or GPL -- I'll need to consult a license advisor for this)
