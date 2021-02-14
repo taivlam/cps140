@@ -19,8 +19,6 @@ This is my GitHub repository for my work in CPS 140, fall 2020.
 
 * Also, I occasionally used VSCodium, the completely F(L)OSS version of Microsoft's Visual Studio Code/VSCode that has telementry/tracking removed.  VSCodium definitely helped me to avoid a few severe HTML/CSS errors or mishaps - however, this probably matters if coding is part of your daily job and your livelihood depends on it.
 
-(Thanks to [PrivacyToolsIO](https://www.privacytools.io/software/productivity/) for mentioning VSCodium!)
-
 ## Some Random, Not Very Nicely Catagorizeable Rant Points
 
 Not like I'm an expert, but - sooner or later - the only way to learn how to program/code (in any language - just start _somewhere_, similar to Linux) is to make silly mistakes that cost you at least 1-2 hours of confusion; only to find out that you've forgotten the final `;` in a CSS rule or you forgot the opening/closing HTML tag.
