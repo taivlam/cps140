@@ -27,7 +27,7 @@ nav a:hover { color: #CC9933; }
 nav ul { list-style-type: none; /*Removes list markers for <ul>*/
     padding-left: 0;
 }
-footer { background-color: #D2B48C ;
+footer { background-color: #D2B48C;
     font-size: .60em;
     font-style: italic;
     text-align: center;

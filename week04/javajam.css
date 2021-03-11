@@ -9,7 +9,7 @@ header { background-color: #D2B48C;
     background-repeat: no-repeat;
 }
 h1 { padding-top: 45px;
-    padding-left:220px;
+    padding-left: 220px;
     font-size: 3em;
 }
 nav { text-align: center;
@@ -18,10 +18,11 @@ nav { text-align: center;
     padding-top: 10px;
 }
 nav a { text-decoration: none; }
-footer { background-color: #D2B48C ;
+footer { background-color: #D2B48C;
     font-size: .60em;
     font-style: italic;
     text-align: center;
+    padding-bottom: 10px; /*I forgot this from original submission.*/
     border-top: 2px solid #221811;
 }
 h4 { background-color: #D2B48C;
@@ -29,11 +30,11 @@ h4 { background-color: #D2B48C;
     padding-left: .5em;
     padding-bottom: .25em;
 }
-main { padding: 0em 2em 2em;
+main { padding: 0em 2em 2em; /*top, left+right, bottom*/
     display: block;
 }
-.details { padding: 0% 20%; }
-img { padding: 0px 10px; }
+.details { padding: 0% 20%; } /*top+bottom; left+right*/
+img { padding: 0px 10px; } /*top+bottom; left+right*/
 #wrapper { width: 80%;
     margin-right: auto;
     margin-left: auto;
