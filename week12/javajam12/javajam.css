@@ -49,7 +49,7 @@ footer { background-color: #D2B48C;
     border-top: 2px solid #221811;
 }
 /*Terse way to state the identical CSS rules for 7 descendents*/
-/*Yes, every ```main``` is needed or else none of {h2, h3, h4, p, div, ul, dl} in <main> will work*/
+/*Yes, every `main` is needed or else none of {h2, h3, h4, p, div, ul, dl} in <main> will work*/
 main h2, main h3, main h4, main p, main div, main ul, main dl { 
     padding-left: 3em;
     padding-right: 2em;
@@ -58,7 +58,7 @@ img { padding-left: 10px;
     padding-right: 10px;
 }
 /*Table Rules*/
-table { margin: auto; /*from ```align``` property in Table 8.4/Sect 8.5*/
+table { margin: auto; /*from `align` property in Table 8.4/Sect 8.5*/
     width: 90%; /*also in Table 9.4/Sect 8.5*/
     border-spacing: 0;
     background-color: #FCEBB6; /*Chose the same as body background color*/
@@ -85,9 +85,16 @@ audio { display: block;
     padding-right: 20%;
     overflow: auto;
 }
-.floatleft{ float: left;
+.floatleft { float: left;
     padding-right: 2em;
     padding-bottom: 2em;
+}
+.item {
+    background-color: #FAF9F7;
+    margin: 2em 3em; /*top+bottom; left+right*/
+    width: 80%;
+    padding: 1em;
+    overflow: auto;
 }
 /*Id Selectors*/
 #heroroad { background-image: url(heroroad.jpg);
@@ -109,6 +116,11 @@ audio { display: block;
     background-image: url(herojobs.jpg);
     background-size:100% 100%; /*width & height; otherwise width and auto height*/
 }
+#herocouch { background-image: url(herocouch.jpg); /*following `#heroguitar`*/
+    background-size: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+} 
 #wrapper { width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -119,7 +131,7 @@ audio { display: block;
 }
 /*id selectors for forms*/
 #mySubmit { margin-left: 9.5em; }
-/*These 2 rules "show" a ```desktop``` id for tablet/desktop & hides the ```mobile``` id*/
+/*These 2 rules "show" a `desktop` id for tablet/desktop & hides the `mobile` id*/
 #mobile { display: none; }
 #desktop { display: inline; }
 /*This media section is for tablet displays*/
@@ -195,7 +207,7 @@ audio { display: block;
         height: auto;
     } /*Might as well throw in #herojobs in here, too*/
     /*#herojobs { display: none; }*/ /*hides the Jobs page in mobile view*/ /*Not necessary, if I hide #herojobs in mobile above*/
-    /*Conversely, these 2 rules "show" ```mobile``` id in mobile mode, otherwise hide for tablet/desktop*/
+    /*Conversely, these 2 rules "show" `mobile` id in mobile mode, otherwise hide for tablet/desktop*/
     #mobile { display: inline; }
     #desktop { display: none; }
 }
