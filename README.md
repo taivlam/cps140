@@ -55,9 +55,11 @@ Feel free to make a pull request or raise a GitHub question if you think you see
 
 ## A Note on Chapter 12's JavaJam Assignment
 
-* The Chapter 12 JavaJam assignment (if I ever get to it) will not have the Gear page (i.e., the webshop page) "forked"/"carried over" into my work for Chapters 13 and 14 because the completion of the Chapter 12 JavaJam assignment isn't "canon" with respect to my actual JavaJam work and Chapter 12 would only be completed for my own personal enjoyment (of completion-ism).
+I ended up doing Chapter 12's JavaJam Assignment anyways, and it was annoying to carry over the work into Weeks 13-14 (not realizing that I'd have to some fancy Git and/or Vim maneuver to inject Week 12's changes into Weeks 13-14 in a non-conflicting way).  I'm sure there's a way, but luckily I only had to yank and put text between two different terminal emulator instances of Vim manually for a small number of files and for 2 weeks.
 
-If you're read all the way down here and you need to cary over the Gear page into Chapter 13-14 work for class, then you're definitely sufficiently smart and capable enough to do that yourself.  (From the top of my head and on a high-level conceptual overview that's actually _pretty close_ to the low-level detail perspective, only Chapter 13 adds the description meta tag to all pages so search engines can properly index each page - so, that's literally 1 additional line of HTML in the `head` section for the Gear page - and Chapter 14 won't affect the Gear page - since the JavaScript is only added to the Menu page.)
+However, my result looks a bit different than the pictures in Chapter 12 -- but then again, the textbook could've changed the directions from a previous edition and forgot to change the pictures for this edition.  Also, the "placeholder" webshop doesn't work anymore, as of March 2021.
+
+I see why this JavaJam would lead instructors to skip Week 12...
 
 ## To Do (Hopefully Sooner Rather Than Later)
 
