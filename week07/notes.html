@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Week 7 Notes</title>
+    </head>
+    <body>
+        <h1>Week 7 - Notes</h1>
+        <p>
+            Chapter 7 is the final core foundation chapter - if you can make it
+            through this chapter with JavaJam, then I am willing to vouch that
+            you can make it to the end of this course.  This is the last "hard"
+            chapter, because all subsequent chapters after Chapter 7 are easier
+            due to being relatively "self-contained".  Chapters 2-4 and 6-7
+            keep linearly building up on top of each other's work.
+        </p>
+        <p>
+            I strongly recommend doing the actual JavaJam assignment.  (I
+            honestly do not know why there is an option to do a short essay-like
+            assignment.)  You will be missing out on a lot for having your
+            JavaJam site functioning the way it should by the end of the
+            course.
+        </p>
+        <h2>General Collected Thoughts</h2>
+        <p>
+            By now, if you have not figured out a workflow with the class, then
+            you can really speed up your process of checking the HTML you wrote
+            with the corresponding sample solution by opening up each
+            respective webpage in your preferred web browser of choice.
+        </p>
+        <p>
+            (I was using Firefox then, but then transitioned to LibreWolf.)
+        </p>
+        <p>
+            (I cannot use Brave or Ungoogled Chromium, because I have enabled
+            the Chrome flag for native darkening of the webpage and I also use
+            Dark Reader on both of them.)
+        </p>
+        <p>
+            I think some website creators forget that more than 90% of mobile
+            devices do not have any sort of stylus (looking at Samsung and its
+            S Pen styluses), so you cannot hover over buttons to access mouse
+            hover activated menus, like on a laptop or desktop.
+        </p>
+        <p>
+            It is much better to design for a mobile-friendly website from the
+            beginning and from the top down, rather than trying to make your
+            website mobile friendly after the fact.  Although I personally
+            do not feel comfortable reading paragraphs of text longer than a
+            "short" 5 sentence paragraph on any mobile device (especially a
+            smartphone out of all devices! Who thought it's fun to read
+            Wikipedia on a smartphone?!?), I think too many websites try to
+            cram too much sheer content onto any given "mobile-friendly"
+            webpage.
+        </p>
+        <h3>Section 7.1</h3>
+        <p>
+            The section starts off with relative linking. This is creating a
+            hyperlink to files or other webpages by going deeper into a
+            relative file path or by rising up 1 relative level to access an
+            adjacent directory... this is when I realized this is exactly what
+            I was doing in "the terminal" (technically terminal emulator
+            instances).  I love how knowing Linux helps you out in surprising
+            ways in other distant parts of technology, but Windows never leads
+            you anywhere outside of its closed-sourced, walled garden/sphere of
+            influence that Microsoft gatekeeps for no reason.  (It's the
+            "trick" where you rise up 1 directory level with<br>
+            <code>$ cd ../</code><br>
+            if you didn't know what I was talking about without referencing the
+            book itself.)
+        </p>
+        <p>
+            Also in Section 7.1 is the fragment identifiers - this is how
+            Wikipedia jumps down to the section or subsection you clicked on
+            when you look at an article's "table of contents".  It's a bit
+            tedious to write the HTML for a fragment identifier, but it is worth
+            the effort once you have it completely set up.
+        </p>
+        <p>
+            Apparently one can make hyperlinks to telephone numbers and even
+            sending SMS text messages -- though, to be honest these sound
+            somewhat annoying and would never work on a traditional desktop or
+            laptop operating system.  I suppose this could be convenient for a
+            mobile version of a website (such as a result in DuckDuckGo for a
+            real business).  I still would only use this functionality if I was
+            using a phone with no Google Play services (so, running one of
+            these phone OSes: GrapheneOS, CalyxOS, or LineageOS for microG).
+        </p>
+        <h3>Section 7.2</h3>
+        <p>
+            In Section 7.2, CSS sprites are discussed.  I think that the
+            resource management manipulation trick of selectively displaying
+            non-overlapping sections of a sprite graphics file is very clever,
+            though I wished the book would elaborate more how this can be used
+            to keep the size of a plain HTML and CSS webpage much smaller than
+            1MB.  (This was when I learned outside of class that websites
+            become much larger than 1MB once privacy invasive analytics, such
+            as Google Analytics, are added.  This is very unfortunate that is
+            considered customarily ok to create webpages much larger than
+            1-10MB -- not everyone lives in areas of the world with good
+            telecommunications infrastructure with higher than 1Gbps Ethernet
+            speeds...
+        </p>
+        <h3>Section 7.5</h3>
+        <p>
+            In Part 1 of Practice 7.5, the image file extension should be
+            <code>.jpg</code>, not <code>.png</code>.
+        </p>
+        <p>
+            This section mentions one way to design a mobile web site is to
+            create a separate mobile-friendly site with a <code>.mobi</code>
+            TLD.  That sounds like the Internet from 2008.  No one should do
+            this technique in 2020 and that is probably not the best way to
+            implement progressive web design.
+        </p>
+        <h3>Section 7.8</h3>
+        <p>
+            After reading this section, responsive images are really cool -
+            once you have written the HTML and made sure it is error free.
+        </p>
+        <h3>Section 7.9</h3>
+        <p>
+            In this section, you can finally see it really pays off to create a
+            GitHub Page for your JavaJam site.  You can just navigate to your
+            GH Page site to test how well your mobile display functions.
+        </p>
+        <p>
+            This section reminds me that you need to pay Apple money to develop
+            even open source apps for MacOS/iOS -- this is why I can't even
+            deal with the idea of owning an Apple device.
+        </p>
+        <p>
+            In Practice 7.10, please ignore the <code>w</code> units for
+            picture widths in Step #2.  I have no idea why the <code>w</code>'s
+            are there.
+        </p>
+        <h3>Sections 7.10-7.11</h3>
+        <p>
+            These sections were semi-skipped in class because they were not
+            emphasized.  I believe the CSS flexible box layout was not used as
+            widely before 2017-2018 (when the ninth edition of this book was
+            published) as now - but it is 2021 and it is being used everywhere.
+            Pay attention if you are set to work in front-end web development
+            with HTML and CSS is what I feel is actually the truth.  Also,
+            ironically you still need to answer questions about the CSS
+            flexible box layout and the grid layout for the quiz... I guess
+            just use Quizlet search results if you're really stuck?
+        </p>
+        <h2>JavaJam Assignment</h2>
+        <p>
+            For the JavaJam assignment, if you truly do not have a physical
+            tablet and/or smartphone to test your progressive web or mobile
+            friendly site, then you can simply simulate a phone/tablet display
+            by changing the dimensions of Firefox/Chromium with the mouse.
+            (There's also the actual mobile device simulator when you press
+            <code>F12</code> in Firefox or Chromium for the browser console,
+            a.k.a. the "developer's area", if you feel like exploring that,
+            too.)
+        </p>
+    </body>
+</html>
