@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Week 12 Notes</title>
+    </head>
+    <body>
+        <h1>Week 12 - Notes</h1>
+        <p>
+            In our class, this is another "non-programming" chapter and week.
+            (I will get into why Chapter 12's JavaJam assignment is not really
+            instructive anymore.)
+        </p>
+        <h2>General Thoughts</h2>
+        <p>
+            The book gets into e-commerce.  It is by far the furthest
+            digression from writing HTML, but most normal clients will likely
+            require sites that need to be static pages, not bare HTML and CSS.
+            So, it is good to be in touch with reality - even if it is pretty
+            gnarly and gross.  Fortunately, it is not more so than required.
+        </p>
+        <p>
+            I sort of wished the book mentioned that various sites, such as
+            airline ticket sites, are known to manipulate prices if you return
+            to the same ticket listing, rather than immediately buy the ticket
+            offer without the chance to do any price comparison.  (It is even
+            suspected - or basically known, even "unofficially" - that sites,
+            such as Ebay and Expedia, dynamically change listed prices to
+            anyone who does not use a VPN.)
+        </p>
+        <p>
+            Under "Risks of E-Commerce", security issues and privacy issues are
+            mentioned.  Well, unfortunately you cannot teach a mindset to
+            people.  For the first, the book is extremely outdated - no one
+            should be entering a credit card or login credentials to any site
+            that does not have HTTPS (the padlock, made possible by TLS and
+            SSL).  For the second, basically do not expect any reasonable level
+            of privacy from any law enforcement entities when  the site most
+            likely stores any amount of data about you in any database...
+            unless you are Bitwarden, apparently.  However, Bitwarden has a
+            business model that relies on trust and E2EE and thus is  not your
+            typical online business (which is technically different from
+            e-commerce, but still worth mentioning).
+        </p>
+        <p>
+            You can significantly promote the overall privacy of your website
+            by not using Google Analytics.  (First, ask yourself if you
+            <emph>really</emph> need analytics; and if the answer is still
+            "yes", then strongly consider using open-source alternatives that
+            are built from the ground up to provide analytics without draconian
+            privacy invasive features.  We live in a post-Snowden revelation
+            era, so the textbook should expect HTTPS internet connections to be
+            the sane default, not bare HTTP.
+        </p>
+        <p>
+            One passing thought: there is a lot of business-to-business
+            e-commerce activity, such as Lenovo.  To be honest, until very
+            recently (when Lewis from Unbox Therapy started the ThinkPad X1
+            Carbon and X1 Nano hype train), Lenovo never seemed to be widely
+            known to your average consumers of computers.  (I am definitely
+            biased, for sure - even though I am starting to cool off because I
+            would like to see more devices not ship with Intel ME... but that's
+            a major digression.)  This is because Lenovo (and more
+            specifically, the contemporary versions of ThinkPads) are typically
+            sold via business-to-business transactions.  For example, schools
+            (such as universities) and other corporate businesses buy a lot of
+            ThinkPads (or ThinkCentres), but these products do not usually get
+            the spotlight attention of your average everyday consumer.
+        </p>
+        <h3>Section 12.5</h3>
+        <p>
+            The e-commerce issues are certainly lacking.  For example,
+            intellectual property is the leading cause to why Intel ME exists
+            in all modern hardware.  Cyber security could be its own course.
+            The "Taxation" bullet point is mostly outdated now, since major
+            online sites, such as Ebay and Amazon, enforce state sales tax -
+            not to mention that the textbook author is a bit old-fashioned and
+            apparently believes in the "goo-goo good government", since the
+            following was written: "Our local governments are losing revenue
+            for funding worthwhile programs." While factually true, I think the
+            author is basically borderline naive to trust the government so
+            much like this - has she ever thought about the assassination of
+            JFK, the Vietnam War, the Cold War, 9/11, or the Snowden
+            revelations?  Probably not, but that is speculation and we should
+            not gossip like that.
+        </p>
+        <h3>Section 12.6</h3>
+        <p>
+            I have no idea why this section exists.  To introduce the concept
+            of encryption is probably alright, but most students are trying to
+            just an IT major as fast as possible (many of them probably do not
+            even need to perform any security related tasks on a day-to-day
+            basis for their actual work).  I suppose the section is trying to
+            work towards digital certificates (for websites, but also for
+            drivers... but that is mostly for Windows or Apple - I am sure
+            drivers can be signed in Linux, but I am not sure how that is
+            implemented.)  The textbook ought to at least mention that you can
+            get a certificate for your own site pretty easily and for free with
+            Certbot (which was created by the EFF) and Let's Encrypt.
+        </p>
+        <h3>Section 12.7</h3>
+        <p>
+            For Section 12.7, this brought up to me (for this week's
+            assignment) that one of the few components of the internet that is
+            not open-source is payment processing systems with credit (or
+            debit) cards.
+        </p>
+        <p>
+            I have never heard of "stored-value cards".  Are these like MiFARE
+            cards used for paying for public transit rides?
+        </p>
+        <p>
+            Digital wallets are mentioned.  I supposed these are more like
+            2013-era technology that had to be significantly revised to still
+            function in 2021.  For example, I have never heard of Yahoo Wallet
+            - though it sounds like a literal honeypot, since Yahoo is always
+            getting hacked for absolutely no good reason.  There is also this
+            hardware wallet called Visa Checkout, but honestly Venmo and
+            CashApp are more usable and recognizable in 2021.  I feel this
+            textbook should not be mentioning these, since the only ones that
+            have made it to 2020-2021 are Google/Android Pay and Apple Pay.
+        </p>
+        <p>
+            Oh boy - I do not know why "digital cash" gets mentioned, i.e.
+            cryptocurrency coins.  Yes, the textbook is really showing its age.
+            It lists Bitcoin as if it is the only widely implemented
+            cryptocoin, as if it is the year 2013 and Daniel Fraga was still
+            posting videos on YouTube.  The only worthwhile cryptocoins are
+            Monero and Zcash - though the latter is a bit weaker with respect
+            to anonymity than the former.  Lastly, I am baffled by the mention
+            that Dell somehow accepts Bitcoin payments, but somehow it is dang
+            near impossible to find the correct landing page to purchase Dell
+            laptops that have Ubuntu preinstalled, instead of Windows???  What
+            about purchasing a Dell laptop with no built-in webcam??? On the
+            other hand, the author is not trying to scam the readers with
+            fraudulent cryptocurrency coin hype at the very least - unlike all
+            of these cryptocoin YouTubers... at the very least recommend
+            hardware wallets to store cryptocoins, instead of just repeating
+            the fad about their being "the future".
+        </p>
+        <h3>Section 12.8</h3>
+        <p>
+            Section 12.8 is the most important for the weekly assignment.  You
+            can probably get most of your ideas from this section alone.
+        </p>
+        <h2>Weekly Assignment, But No JavaJam</h2>
+        <p>
+            There is a reason why our class skipped the JavaJam assignment: the
+            dummy PHP script provided by the textbook for the online store no
+            longer functions, since the script apparently no longer exists on
+            the companion textbook website.  (Maybe the publisher and author
+            should have worked out some public Git solution, such as on
+            GitHub...)  Anyways, the JavaJam site will look more "complete",
+            even though the textbook treats most of the chapters after Chapter
+            9 as effectively self-contained.
+        </p>
+    </body>
+</html>
