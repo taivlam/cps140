@@ -64,11 +64,7 @@ I see why this JavaJam would lead instructors to skip Week 12...
 ## Other Implementations
 
 * Unstructured and rambling notes for each of the chapters
-
-## To Do
-
-I want to have the following:
-* Implement a simple CSS dark theme across all pages that aren't the JavaJam Coffee House pages.
+* Implement a simple CSS dark theme across home page and all Weekly Notes (Chapter 10 and Chapter 12 are left alone with their respective embedded CSS)
 
 ## License
 
