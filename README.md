@@ -61,11 +61,14 @@ However, my result looks a bit different than the pictures in Chapter 12 -- but 
 
 I see why this JavaJam would lead instructors to skip Week 12...
 
-## To Do (Hopefully Sooner Rather Than Later)
+## Other Implementations
 
-I want to have the following here (besides the weekly assignments):
-* Implement a simple CSS dark theme across all pages that aren't the JavaJam Coffe House pages.
-* Some notes that would help myself, especially for the chapters and weeks that didn't have a JavaJam Coffee House Assignment (specifically Chapters 5 and 10 had no JavaJam assignment and our class opted to not do the Chapter 12 JavaJam assignment).
+* Unstructured and rambling notes for each of the chapters
+
+## To Do
+
+I want to have the following:
+* Implement a simple CSS dark theme across all pages that aren't the JavaJam Coffee House pages.
 
 ## License
 
