@@ -1,0 +1,18 @@
+/* These CSS rulesets were stripped down from Chapter 10's assignment */
+/* Basically, the whole plain HTML page */
+body {
+    background-color: #222222; /* slightly darker gray */
+    color: #eaeaea; /* slightly off-white */
+}
+/* Make URL anchors closer to cyan than default blue for increased visibility */
+a { color: rgb(0, 196, 255); } 
+code {
+    color: #BBBBBB; /* Code text color from dark Chrome flag */
+    background-color: #202020; /* Code background color from dark Chrome flag */
+    border: 1px solid #CCCCCC; /* Code border color from dark Chrome flag */
+    border-radius: 3px;
+    padding: 3px;
+}
+/* Having a border with rounded corners for <code> isn't currently urgent */
+/* --- */
+/* An experienced dark theme designer might yell at me for this later... */
